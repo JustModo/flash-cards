@@ -1,0 +1,630 @@
+{
+  "id": "e1",
+  "title": "EVS MOD 1",
+  "description": "A collection of questions covering forest, desert, river, ocean, and wetland ecosystems, as well as the UN Sustainable Development Goals.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the primary producer in a forest ecosystem?",
+      "options": ["Deer", "Oak tree", "Hawk", "Mushroom"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q2",
+      "text": "Which layer of the forest canopy receives the most sunlight?",
+      "options": [
+        "Emergent layer",
+        "Canopy layer",
+        "Understory layer",
+        "Forest floor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q3",
+      "text": "Which of the following organisms is considered a decomposer in a forest ecosystem?",
+      "options": ["Owl", "Earthworm", "Squirrel", "Frog"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "Which of the following best describes the role of fungi in the forest ecosystem?",
+      "options": [
+        "Primary consumers",
+        "Decomposers",
+        "Top predators",
+        "Secondary producers"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "What is the primary function of a forest's understory layer?",
+      "options": [
+        "Absorb most of the sunlight",
+        "Provide habitat for small animals",
+        "Produce the majority of oxygen",
+        "Support the tallest trees"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Which of the following is NOT a component of the forest floor ecosystem?",
+      "options": ["Fallen leaves", "Mosses", "Epiphytes", "Canopy"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q7",
+      "text": "What is the term for the variety of species within a forest ecosystem?",
+      "options": [
+        "Biodiversity",
+        "Biomass",
+        "Trophic level",
+        "Ecosystem service"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q8",
+      "text": "Which of the following is a characteristic of a healthy forest ecosystem?",
+      "options": [
+        "Low biodiversity",
+        "Decreased soil fertility",
+        "Limited water availability",
+        "High species richness"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q9",
+      "text": "What is the role of apex predators in forest ecosystems?",
+      "options": [
+        "Control prey populations",
+        "Decompose organic matter",
+        "Provide nutrients to the soil",
+        "Conduct photosynthesis"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q10",
+      "text": "What is the term for the relationship where one organism benefits while the other is unaffected in a forest ecosystem?",
+      "options": ["Mutualism", "Parasitism", "Commensalism", "Competition"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q11",
+      "text": "Which of the following adaptations is most common among plants in desert ecosystems?",
+      "options": [
+        "Large leaves for efficient photosynthesis",
+        "Deep root systems to access groundwater",
+        "Thin cuticles to retain moisture",
+        "High water content in tissues"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "What is the primary limiting factor for plant growth in deserts?",
+      "options": [
+        "Temperature fluctuations",
+        "Lack of sunlight",
+        "Soil nutrients",
+        "Water availability"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q13",
+      "text": "Which type of animal is often considered a keystone species in desert ecosystems?",
+      "options": ["Jackrabbit", "Coyote", "Kangaroo rat", "Scorpion"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "How do desert plants reduce water loss?",
+      "options": [
+        "By having large leaves to store water",
+        "By opening stomata during the day",
+        "By conducting photosynthesis only at night",
+        "By having thick waxy cuticles on their leaves"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q15",
+      "text": "What is the primary source of energy for most desert ecosystems?",
+      "options": ["Sunlight", "Geothermal energy", "Wind", "Fossil fuels"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q16",
+      "text": "Which of the following desert animals is primarily nocturnal to avoid extreme daytime temperatures?",
+      "options": ["Camel", "Fennec fox", "Gila monster", "Desert tortoise"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "What is the term for the process by which desert soils become encrusted with salts due to evaporation?",
+      "options": ["Desertification", "Salinization", "Erosion", "Leaching"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q18",
+      "text": "How do desert plants adapt to survive in extreme temperatures?",
+      "options": [
+        "By storing water in their stems",
+        "By having broad leaves to capture sunlight",
+        "By shedding their leaves during dry periods",
+        "By increasing their transpiration rates"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q19",
+      "text": "What is the primary function of desert-dwelling animals' burrows?",
+      "options": [
+        "Protection from predators",
+        "Shelter from sandstorms",
+        "Regulation of body temperature",
+        "Accumulation of water"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q20",
+      "text": "How do desert plants maximize water absorption?",
+      "options": [
+        "By having shallow root systems",
+        "By closing stomata during the day",
+        "By relying on rainfall for hydration",
+        "By having extensive root systems"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q21",
+      "text": "Which of the following organisms is considered a primary producer in a river ecosystem?",
+      "options": ["Trout", "Algae", "Mayfly", "Snail"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q22",
+      "text": "What is the primary function of riparian vegetation in river ecosystems?",
+      "options": [
+        "Provide shelter for fish",
+        "Filter pollutants from water",
+        "Control erosion along riverbanks",
+        "Regulate water temperature"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "Which of the following organisms is an example of a benthic macroinvertebrate in a river ecosystem?",
+      "options": ["Trout", "Algae", "Mayfly", "Snail"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q24",
+      "text": "What is the term for the zone of a river where freshwater and saltwater mix?",
+      "options": ["Estuary", "Rapids", "Source", "Tributary"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q25",
+      "text": "What is the primary role of decomposers in a river ecosystem?",
+      "options": [
+        "Control fish populations",
+        "Produce oxygen",
+        "Break down organic matter",
+        "Filter sediment"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q26",
+      "text": "Which of the following is NOT a function of wetlands within river ecosystems?",
+      "options": [
+        "Providing habitat for wildlife",
+        "Filtering pollutants",
+        "Regulating river flow",
+        "Increasing water turbidity"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q27",
+      "text": "What is the term for the area where a river meets the ocean or a lake?",
+      "options": ["Mouth", "Source", "Tributary", "Confluence"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q28",
+      "text": "Which of the following is an example of a secondary consumer in a river ecosystem?",
+      "options": ["Algae", "Trout", "Mayfly", "Snail"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q29",
+      "text": "What is the term for the process by which nutrients and organic matter are transported downstream in a river ecosystem?",
+      "options": ["Erosion", "Deposition", "Leaching", "Flux"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q30",
+      "text": "Which of the following is an example of a lotic habitat in a river ecosystem?",
+      "options": ["Pool", "Marsh", "Rapids", "Lake"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q31",
+      "text": "Which of the following is the primary producer in ocean ecosystems?",
+      "options": ["Coral", "Jellyfish", "Phytoplankton", "Sea turtle"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "What is the primary function of coral reefs in ocean ecosystems?",
+      "options": [
+        "Providing habitat for marine mammals",
+        "Regulating ocean currents",
+        "Stabilizing the ocean floor",
+        "Supporting biodiversity and providing habitat for various marine species"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q33",
+      "text": "Which of the following organisms is considered a top predator in the ocean ecosystem?",
+      "options": ["Phytoplankton", "Seagull", "Shark", "Krill"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "What is the term for the zone of the ocean where sunlight penetrates and photosynthesis occurs?",
+      "options": [
+        "Abyssal zone",
+        "Hadal zone",
+        "Epipelagic zone",
+        "Bathypelagic zone"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q35",
+      "text": "What is the primary role of zooplankton in ocean ecosystems?",
+      "options": [
+        "Photosynthesis",
+        "Filter feeding",
+        "Decomposition",
+        "Predation"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q36",
+      "text": "Which of the following is NOT a function of mangrove forests in coastal ocean ecosystems?",
+      "options": [
+        "Protecting coastlines from erosion and storm damage",
+        "Filtering pollutants from runoff",
+        "Providing habitat for juvenile fish and marine invertebrates",
+        "Regulating ocean salinity"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q37",
+      "text": "What is the term for the area of the ocean where the water is too deep for sunlight to penetrate?",
+      "options": [
+        "Bathyal zone",
+        "Mesopelagic zone",
+        "Aphotic zone",
+        "Twilight zone"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "Which of the following is an example of a pelagic habitat in the ocean ecosystem?",
+      "options": [
+        "Coral reef",
+        "Seafloor",
+        "Kelp forest",
+        "Open ocean water column"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q39",
+      "text": "What is the term for the process by which dissolved nutrients are cycled between the ocean surface and deeper layers?",
+      "options": [
+        "Upwelling",
+        "Downwelling",
+        "Eutrophication",
+        "Nutrient cycling"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q40",
+      "text": "Which of the following organisms is an example of a filter feeder in the ocean ecosystem?",
+      "options": ["Dolphin", "Blue whale", "Clam", "Tuna"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q41",
+      "text": "What is the primary role of wetlands in the ecosystem?",
+      "options": [
+        "Carbon sequestration",
+        "Oxygen production",
+        "Soil erosion prevention",
+        "Groundwater pollution"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q42",
+      "text": "Which of the following is a characteristic of wetland soils?",
+      "options": [
+        "High oxygen content",
+        "Low organic matter",
+        "High acidity",
+        "Low permeability"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q43",
+      "text": "What is the primary function of wetland vegetation?",
+      "options": [
+        "Oxygen production",
+        "Soil stabilization",
+        "Nitrogen fixation",
+        "Water filtration"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q44",
+      "text": "Which of the following organisms is commonly found in wetland ecosystems and is known for its loud mating calls?",
+      "options": ["Alligator", "Beaver", "Bullfrog", "Osprey"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q45",
+      "text": "What is the term for the transition zone between a wetland and a terrestrial ecosystem?",
+      "options": ["Riparian zone", "Aquatic zone", "Swamp", "Estuary"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q46",
+      "text": "Which of the following wetland types is characterized by saturated soils and acidic water, often found in northern regions?",
+      "options": ["Marsh", "Swamp", "Bog", "Fen"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q47",
+      "text": "What is the primary function of wetlands in flood control?",
+      "options": [
+        "Absorb floodwaters",
+        "Divert floodwaters",
+        "Increase flood risk",
+        "Accelerate flood flow"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q48",
+      "text": "Which of the following ecosystem services is NOT provided by wetlands?",
+      "options": [
+        "Water purification",
+        "Climate regulation",
+        "Timber production",
+        "Habitat provision"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q49",
+      "text": "What is the primary function of wetlands in nutrient cycling?",
+      "options": [
+        "Nitrogen fixation",
+        "Phosphorus storage",
+        "Carbon sequestration",
+        "Recycling organic matter"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q50",
+      "text": "Which of the following wetland plants is commonly used for phytoremediation to remove pollutants from water?",
+      "options": ["Cattail", "Water lily", "Duckweed", "Saltmarsh cordgrass"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q51",
+      "text": "When were the Sustainable Development Goals (SDGs) officially adopted by the United Nations?",
+      "options": ["2000", "2010", "2015", "2020"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q52",
+      "text": "How many Sustainable Development Goals are there in total?",
+      "options": ["8", "12", "17", "20"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q53",
+      "text": "What is the primary purpose of the SDGs?",
+      "options": [
+        "Promote economic growth",
+        "Tackle global poverty",
+        "Address climate change",
+        "Achieve sustainable development"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "q54",
+      "text": "Which of the following is NOT one of the SDGs?",
+      "options": [
+        "Gender Equality",
+        "Quality Education",
+        "Clean Air",
+        "Affordable and Clean Energy"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q55",
+      "text": "Which SDG aims to ensure access to safe and affordable drinking water for all?",
+      "options": [
+        "SDG 3: Good Health and Well-being",
+        "SDG 6: Clean Water and Sanitation",
+        "SDG 7: Affordable and Clean Energy",
+        "SDG 13: Climate Action"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q56",
+      "text": "What is the deadline for achieving the Sustainable Development Goals?",
+      "options": ["2020", "2030", "2040", "2050"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q57",
+      "text": "Which SDG aims to promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all?",
+      "options": [
+        "SDG 1: No Poverty",
+        "SDG 5: Gender Equality",
+        "SDG 8: Decent Work and Economic Growth",
+        "SDG 11: Sustainable Cities and Communities"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q58",
+      "text": "What is the term used to describe the collective efforts and resources needed to achieve the SDGs?",
+      "options": [
+        "Sustainable Development Cooperation",
+        "Global Partnership for Sustainable Development",
+        "International Sustainability Initiative",
+        "United Nations Development Program"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q59",
+      "text": "Which SDG aims to reduce inequality within and among countries?",
+      "options": [
+        "SDG 5: Gender Equality",
+        "SDG 10: Reduced Inequalities",
+        "SDG 16: Peace, Justice, and Strong Institutions",
+        "SDG 17: Partnerships for the Goals"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q60",
+      "text": "What is the term used to describe the process of building the knowledge, skills, and institutional capacities needed to achieve sustainable development goals?",
+      "options": [
+        "Sustainable Development Education",
+        "Capacity Building",
+        "Global Training Initiative",
+        "Knowledge Transfer Program"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q61",
+      "text": "Which SDG focuses on ending poverty in all its forms everywhere?",
+      "options": [
+        "SDG 1: No Poverty",
+        "SDG 2: Zero Hunger",
+        "SDG 3: Good Health and Well-being",
+        "SDG 4: Quality Education"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "q62",
+      "text": "Which SDG aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all?",
+      "options": [
+        "SDG 3: Good Health and Well-being",
+        "SDG 4: Quality Education",
+        "SDG 5: Gender Equality",
+        "SDG 6: Clean Water and Sanitation"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q63",
+      "text": "Which SDG aims to promote peaceful and inclusive societies for sustainable development, provide access to justice for all, and build effective, accountable, and inclusive institutions at all levels?",
+      "options": [
+        "SDG 10: Reduced Inequalities",
+        "SDG 11: Sustainable Cities and Communities",
+        "SDG 16: Peace, Justice, and Strong Institutions",
+        "SDG 17: Partnerships for the Goals"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q64",
+      "text": "Which SDG aims to conserve and sustainably use the oceans, seas, and marine resources for sustainable development?",
+      "options": [
+        "SDG 12: Responsible Consumption and Production",
+        "SDG 13: Climate Action",
+        "SDG 14: Life Below Water",
+        "SDG 15: Life on Land"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q65",
+      "text": "Which SDG aims to protect, restore, and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, halt and reverse land degradation, and halt biodiversity loss?",
+      "options": [
+        "SDG 13: Climate Action",
+        "SDG 14: Life Below Water",
+        "SDG 15: Life on Land",
+        "SDG 16: Peace, Justice, and Strong Institutions"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "q66",
+      "text": "Which SDG aims to ensure availability and sustainable management of water and sanitation for all?",
+      "options": [
+        "SDG 5: Gender Equality",
+        "SDG 6: Clean Water and Sanitation",
+        "SDG 7: Affordable and Clean Energy",
+        "SDG 8: Decent Work and Economic Growth"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q67",
+      "text": "Which SDG aims to reduce the adverse impacts of climate change and take urgent action to combat its effects?",
+      "options": [
+        "SDG 12: Responsible Consumption and Production",
+        "SDG 13: Climate Action",
+        "SDG 14: Life Below Water",
+        "SDG 15: Life on Land"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "q68",
+      "text": "Which SDG aims to strengthen the means of implementation and revitalize the global partnership for sustainable development?",
+      "options": [
+        "SDG 17: Partnerships for the Goals",
+        "SDG 18: Sustainable Development Cooperation",
+        "SDG 19: Global Citizenship",
+        "SDG 20: International Collaboration"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

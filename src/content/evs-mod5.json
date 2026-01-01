@@ -1,0 +1,552 @@
+{
+  "id": "e5",
+  "title": "EVS MOD 5",
+  "description": "Exploration of sustainable agricultural practices, waste-to-energy technologies, and marine conservation strategies including spatial planning.",
+  "questions": [
+    {
+      "id": "m5-q1",
+      "text": "Crop rotation is beneficial for soil fertility because it:",
+      "options": [
+        "Introduces synthetic fertilizers",
+        "Reduces pest and disease pressure",
+        "Increases soil erosion",
+        "Decreases biodiversity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q2",
+      "text": "Organic farming primarily relies on:",
+      "options": [
+        "Synthetic chemicals",
+        "Biological control methods",
+        "Genetically modified organisms (GMOs)",
+        "High water usage"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q3",
+      "text": "Agroforestry contributes to biodiversity conservation by:",
+      "options": [
+        "Eliminating trees from agricultural landscapes",
+        "Reducing soil erosion",
+        "Incorporating trees and shrubs into agricultural areas",
+        "Using synthetic fertilizers"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q4",
+      "text": "Precision agriculture optimizes input usage by:",
+      "options": [
+        "Increasing resource wastage",
+        "Minimizing crop yields",
+        "Using GPS, sensors, and data analytics",
+        "Avoiding technological advancements"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q5",
+      "text": "Drip irrigation and micro-irrigation systems are efficient because they:",
+      "options": [
+        "Use flood irrigation methods",
+        "Directly water the root zone of plants",
+        "Increase water waste through evaporation",
+        "Do not conserve water resources"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q6",
+      "text": "Which agricultural practice involves alternating crops to maintain soil health?",
+      "options": [
+        "Organic farming",
+        "Agroforestry",
+        "Crop rotation",
+        "Precision agriculture"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q7",
+      "text": "Organic farming differs from conventional farming by:",
+      "options": [
+        "Using synthetic chemicals",
+        "Prioritizing natural inputs and biological control methods",
+        "Avoiding soil health improvement",
+        "Minimizing biodiversity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q8",
+      "text": "How does agroforestry contribute to climate change mitigation?",
+      "options": [
+        "By increasing soil erosion",
+        "By reducing carbon sequestration",
+        "By enhancing carbon sequestration through trees and shrubs",
+        "By degrading biodiversity"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q9",
+      "text": "Precision agriculture helps in reducing environmental impacts by:",
+      "options": [
+        "Increasing resource wastage",
+        "Maximizing crop yields without considering environmental factors",
+        "Optimizing input usage and minimizing environmental impacts",
+        "Avoiding technological advancements"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q10",
+      "text": "Which irrigation technique is effective in conserving water resources?",
+      "options": [
+        "Flood irrigation",
+        "Precision irrigation",
+        "Overhead irrigation",
+        "Sprinkler irrigation"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q11",
+      "text": "Biological pest control involves the use of:",
+      "options": [
+        "Synthetic chemicals",
+        "Natural enemies of pests",
+        "Genetically modified organisms (GMOs)",
+        "High water usage"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q12",
+      "text": "Cover cropping helps in soil health improvement by:",
+      "options": [
+        "Increasing erosion",
+        "Suppressing weeds",
+        "Using synthetic fertilizers",
+        "Decreasing soil fertility"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q13",
+      "text": "Renewable energy integration in agriculture primarily aims to:",
+      "options": [
+        "Increase greenhouse gas emissions",
+        "Reduce reliance on fossil fuels",
+        "Promote soil erosion",
+        "Minimize biodiversity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q14",
+      "text": "Smart farming systems utilize technologies such as IoT devices for:",
+      "options": [
+        "Ignoring environmental conditions",
+        "Real-time monitoring of crop growth",
+        "Increasing resource wastage",
+        "Avoiding data analytics"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q15",
+      "text": "Biotechnology and genetic engineering can enhance crop traits such as:",
+      "options": [
+        "Increasing pest susceptibility",
+        "Reducing nutritional content",
+        "Drought tolerance and pest resistance",
+        "Enhancing soil erosion"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q16",
+      "text": "What is the primary benefit of using biological pest control methods?",
+      "options": [
+        "Increased reliance on chemical pesticides",
+        "Minimizing adverse effects on non-target organisms",
+        "Accelerating soil erosion",
+        "Decreasing biodiversity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q17",
+      "text": "How do cover crops contribute to soil fertility?",
+      "options": [
+        "By promoting erosion",
+        "By suppressing beneficial soil microorganisms",
+        "By enhancing soil structure and adding organic matter",
+        "By increasing soil compaction"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q18",
+      "text": "What is a key advantage of renewable energy integration in agriculture?",
+      "options": [
+        "Increasing reliance on fossil fuels",
+        "Decreasing greenhouse gas emissions",
+        "Promoting environmental degradation",
+        "Minimizing soil erosion"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q19",
+      "text": "Smart farming systems help in:",
+      "options": [
+        "Increasing resource wastage",
+        "Real-time monitoring of environmental conditions",
+        "Ignoring data analytics",
+        "Avoiding automation"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q20",
+      "text": "How can biotechnology and genetic engineering contribute to sustainable agriculture?",
+      "options": [
+        "By promoting chemical pesticide use",
+        "By reducing crop productivity",
+        "By enhancing crop traits without increasing chemical inputs",
+        "By decreasing soil fertility"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q21",
+      "text": "What is the primary objective of waste-to-energy technologies?",
+      "options": [
+        "Recycling waste materials",
+        "Minimizing waste generation",
+        "Converting waste into usable energy",
+        "Promoting composting practices"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q22",
+      "text": "Which of the following is NOT a waste-to-energy technology?",
+      "options": [
+        "Incineration",
+        "Anaerobic digestion",
+        "Landfilling",
+        "Gasification"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q23",
+      "text": "Which waste-to-energy technology involves burning waste at high temperatures?",
+      "options": [
+        "Anaerobic digestion",
+        "Gasification",
+        "Incineration",
+        "Pyrolysis"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q24",
+      "text": "Anaerobic digestion is a process that:",
+      "options": [
+        "Involves burning waste to generate electricity",
+        "Converts organic waste into biogas and fertilizer",
+        "Converts waste into solid fuel pellets",
+        "Utilizes solar energy to decompose waste"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q25",
+      "text": "Gasification of waste involves:",
+      "options": [
+        "Converting waste into liquid fuels",
+        "Decomposing waste using high temperatures and no oxygen",
+        "Generating electricity from methane produced by waste",
+        "Separating recyclable materials from waste streams"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q26",
+      "text": "Which waste-to-energy technology is commonly used for converting biomass and organic waste into biofuels?",
+      "options": [
+        "Incineration",
+        "Anaerobic digestion",
+        "Gasification",
+        "Pyrolysis"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m5-q27",
+      "text": "Landfill gas-to-energy systems primarily capture and utilize:",
+      "options": [
+        "Methane emitted from decomposing organic waste",
+        "Oxygen released during waste decomposition",
+        "Carbon dioxide produced by waste incineration",
+        "Hydrogen generated from landfill leachate"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m5-q28",
+      "text": "Which waste-to-energy technology is considered more environmentally friendly due to its ability to reduce greenhouse gas emissions?",
+      "options": [
+        "Incineration",
+        "Landfilling",
+        "Anaerobic digestion",
+        "Gasification"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q29",
+      "text": "The main product of waste incineration is:",
+      "options": [
+        "Biogas",
+        "Fertilizer",
+        "Electricity or heat",
+        "Solid fuel pellets"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q30",
+      "text": "How does waste-to-energy contribute to sustainable waste management?",
+      "options": [
+        "By increasing landfill space",
+        "By reducing the need for raw material extraction",
+        "By promoting waste generation",
+        "By releasing harmful pollutants into the environment"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q31",
+      "text": "What is one of the primary goals of marine conservation?",
+      "options": [
+        "Maximizing fishing quotas",
+        "Exploiting marine resources for economic gain",
+        "Protecting and preserving marine ecosystems",
+        "Increasing pollution in marine environments"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q32",
+      "text": "Which of the following is a major threat to marine biodiversity?",
+      "options": [
+        "Overfishing",
+        "Marine tourism",
+        "Plastic pollution",
+        "Oil spills"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m5-q33",
+      "text": "Marine protected areas (MPAs) are established to:",
+      "options": [
+        "Increase commercial fishing activities",
+        "Allow unrestricted access to marine resources",
+        "Safeguard marine habitats and species",
+        "Encourage habitat destruction"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q34",
+      "text": "What role do coral reefs play in marine conservation?",
+      "options": [
+        "They contribute to ocean acidification",
+        "They provide habitats for diverse marine life",
+        "They accelerate plastic pollution",
+        "They promote overfishing"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q35",
+      "text": "Which international agreement aims to conserve and manage marine biodiversity in areas beyond national jurisdiction?",
+      "options": [
+        "Kyoto Protocol",
+        "Paris Agreement",
+        "Convention on Biological Diversity (CBD)",
+        "United Nations Convention on the Law of the Sea (UNCLOS)"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m5-q36",
+      "text": "What is the primary purpose of marine spatial planning?",
+      "options": [
+        "Maximizing exploitation of marine resources",
+        "Minimizing marine protected areas",
+        "Balancing conservation with sustainable use of marine resources",
+        "Ignoring environmental considerations"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q37",
+      "text": "Which of the following is an example of a marine invasive species?",
+      "options": ["Coral reefs", "Sea turtles", "Lionfish", "Dolphins"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q38",
+      "text": "How does marine debris affect marine conservation efforts?",
+      "options": [
+        "It promotes coral reef growth",
+        "It enhances marine biodiversity",
+        "It harms marine life through ingestion and entanglement",
+        "It has no impact on marine ecosystems"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q39",
+      "text": "What is the purpose of marine conservation genetics?",
+      "options": [
+        "To increase exploitation of marine resources",
+        "To preserve genetic diversity in marine species",
+        "To accelerate habitat destruction",
+        "To promote overfishing"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q40",
+      "text": "How can marine ecotourism contribute to marine conservation?",
+      "options": [
+        "By increasing pollution in marine environments",
+        "By raising awareness about marine ecosystems",
+        "By promoting unsustainable fishing practices",
+        "By reducing marine protected areas"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q41",
+      "text": "What is the primary goal of Marine Spatial Planning (MSP)?",
+      "options": [
+        "Maximizing exploitation of marine resources",
+        "Minimizing marine protected areas",
+        "Balancing conservation with sustainable use of marine resources",
+        "Ignoring environmental considerations"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q42",
+      "text": "Which of the following is NOT a key component of Marine Spatial Planning?",
+      "options": [
+        "Identifying areas for offshore drilling",
+        "Stakeholder engagement",
+        "Environmental impact assessment",
+        "Decision-making based on scientific data"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m5-q43",
+      "text": "What does Marine Spatial Planning aim to achieve regarding marine activities?",
+      "options": [
+        "Concentrate all activities in a single area",
+        "Regulate marine activities to minimize conflicts and environmental impacts",
+        "Promote uncontrolled expansion of marine industries",
+        "Ignore the needs of local communities"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q44",
+      "text": "Which of the following sectors does Marine Spatial Planning typically address?",
+      "options": [
+        "Agriculture and forestry",
+        "Transportation and infrastructure",
+        "Healthcare and education",
+        "Sports and entertainment"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q45",
+      "text": "How does Marine Spatial Planning involve stakeholders?",
+      "options": [
+        "By excluding their input from the planning process",
+        "By consulting with them and considering their interests and concerns",
+        "By implementing decisions without their knowledge",
+        "By prioritizing the interests of large corporations over local communities"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q46",
+      "text": "Which international agreement encourages the implementation of Marine Spatial Planning?",
+      "options": [
+        "Convention on Biological Diversity (CBD)",
+        "Paris Agreement",
+        "Kyoto Protocol",
+        "United Nations Convention on the Law of the Sea (UNCLOS)"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m5-q47",
+      "text": "What role does science play in Marine Spatial Planning?",
+      "options": [
+        "It is ignored in the planning process",
+        "It provides data and information to support decision-making",
+        "It obstructs the planning process",
+        "It has no relevance to MSP"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m5-q48",
+      "text": "How does Marine Spatial Planning contribute to conservation efforts?",
+      "options": [
+        "By maximizing exploitation of marine resources",
+        "By minimizing protected areas",
+        "By balancing human activities with conservation goals",
+        "By promoting unregulated development"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q49",
+      "text": "Which entity is typically responsible for leading the Marine Spatial Planning process?",
+      "options": [
+        "International corporations",
+        "Local communities",
+        "Government agencies or departments",
+        "Environmental NGOs"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m5-q50",
+      "text": "What is one potential benefit of effective Marine Spatial Planning?",
+      "options": [
+        "Increased conflicts among stakeholders",
+        "Improved management of marine resources and ecosystems",
+        "Decreased stakeholder engagement",
+        "Ignoring environmental concerns"
+      ],
+      "correctAnswerIndex": 1
+    }
+  ]
+}

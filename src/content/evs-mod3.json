@@ -1,0 +1,642 @@
+{
+  "id": "e3",
+  "title": "EVS MOD 3",
+  "description": "An in-depth study of various types of pollution (air, water, soil, noise, light, thermal, and radioactive), their sources, control mechanisms, and the principles of environmental toxicology.",
+  "questions": [
+    {
+      "id": "m3-q1",
+      "text": "Which of the following is a primary source of air pollution?",
+      "options": [
+        "Volcanic eruptions",
+        "Ocean currents",
+        "Forest fires",
+        "Industrial emissions"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q2",
+      "text": "What is a major contributor to water pollution in urban areas?",
+      "options": [
+        "Agricultural runoff",
+        "Industrial discharge",
+        "Marine dumping",
+        "Sewage and wastewater"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q3",
+      "text": "Which of the following is a natural source of soil pollution?",
+      "options": [
+        "Pesticide runoff",
+        "Oil spills",
+        "Mining activities",
+        "Volcanic ash"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q4",
+      "text": "What is the primary source of noise pollution in urban areas?",
+      "options": [
+        "Construction activities",
+        "Industrial machinery",
+        "Traffic and transportation",
+        "Agricultural equipment"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q5",
+      "text": "Which of the following is a common source of light pollution?",
+      "options": ["Streetlights", "Solar panels", "Campfires", "Floodlights"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q6",
+      "text": "What is a significant source of plastic pollution in oceans and water bodies?",
+      "options": [
+        "Industrial waste",
+        "Agricultural runoff",
+        "Marine dumping",
+        "Residential sewage"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q7",
+      "text": "What is a primary source of indoor air pollution in households using solid fuels for cooking and heating?",
+      "options": [
+        "Tobacco smoke",
+        "Radon gas",
+        "Carbon monoxide",
+        "Particulate matter"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q8",
+      "text": "Which of the following is a significant source of thermal pollution in water bodies?",
+      "options": [
+        "Industrial discharge",
+        "Agricultural runoff",
+        "Marine dumping",
+        "Oil spills"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q9",
+      "text": "What is a common source of radioactive pollution in the environment?",
+      "options": [
+        "Nuclear accidents",
+        "Oil spills",
+        "Deforestation",
+        "Industrial emissions"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q10",
+      "text": "What is a primary source of visual pollution in urban areas?",
+      "options": [
+        "Graffiti",
+        "Urban sprawl",
+        "Littering",
+        "Billboard advertising"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q11",
+      "text": "What is the primary source of surface water pollution?",
+      "options": [
+        "Agricultural runoff",
+        "Industrial discharges",
+        "Oil spills",
+        "Sewage discharge"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q12",
+      "text": "Which of the following is a common method used to control surface water pollution from industrial sources?",
+      "options": [
+        "Constructing vegetative buffers",
+        "Implementing stormwater management practices",
+        "Installing wastewater treatment systems",
+        "Conducting regular water quality monitoring"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q13",
+      "text": "What is the primary mechanism for controlling groundwater pollution from underground storage tanks?",
+      "options": [
+        "Installation of impermeable liners",
+        "Regular inspection and maintenance",
+        "Groundwater monitoring wells",
+        "Pump-and-treat remediation"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q14",
+      "text": "Which of the following pollutants is commonly found in surface water due to urban runoff?",
+      "options": ["Heavy metals", "Pesticides", "Pathogens", "Nutrients"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q15",
+      "text": "What is a Best Management Practice (BMP) for controlling surface water pollution from agricultural activities?",
+      "options": [
+        "Buffer strips",
+        "Oil spill containment booms",
+        "Sediment ponds",
+        "Wetland restoration"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q16",
+      "text": "Which of the following technologies is used for groundwater remediation to control contamination?",
+      "options": [
+        "Phytoremediation",
+        "Desalination",
+        "Reverse osmosis",
+        "Hydraulic fracturing"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q17",
+      "text": "What is a common approach to controlling surface water pollution from construction sites?",
+      "options": [
+        "Sediment control measures",
+        "Chemical treatment of runoff",
+        "Diversion of stormwater",
+        "Installation of impervious surfaces"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q18",
+      "text": "Which of the following pollutants can be controlled using riparian buffers along streams and rivers?",
+      "options": ["Oil", "Heavy metals", "Nutrients", "Pathogens"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q19",
+      "text": "What is the purpose of groundwater monitoring programs?",
+      "options": [
+        "To identify sources of contamination",
+        "To assess groundwater quality",
+        "To track trends in pollution levels",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q20",
+      "text": "Which regulatory agency is responsible for overseeing the control of surface and groundwater pollutants in the United States?",
+      "options": [
+        "Environmental Protection Agency (EPA)",
+        "Department of Energy (DOE)",
+        "Food and Drug Administration (FDA)",
+        "National Oceanic and Atmospheric Administration (NOAA)"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q21",
+      "text": "Which of the following is a common soil pollutant resulting from industrial activities and improper waste disposal?",
+      "options": ["Carbon dioxide", "Nitrogen gas", "Heavy metals", "Oxygen"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q22",
+      "text": "What is a primary source of soil pollution caused by pesticides and fertilizers?",
+      "options": [
+        "Industrial waste",
+        "Urban runoff",
+        "Agricultural activities",
+        "Mining operations"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q23",
+      "text": "Which of the following is a potential effect of soil pollution on terrestrial ecosystems?",
+      "options": [
+        "Increased biodiversity",
+        "Enhanced soil fertility",
+        "Soil erosion",
+        "Promotion of plant growth"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q24",
+      "text": "What is a common effect of soil pollution on aquatic ecosystems?",
+      "options": [
+        "Algal blooms",
+        "Decreased water temperature",
+        "Reduced dissolved oxygen levels",
+        "Increased pH levels"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q25",
+      "text": "Which of the following soil pollutants is known to bioaccumulate in organisms and pose risks to human health?",
+      "options": [
+        "Carbon dioxide",
+        "Sulfur dioxide",
+        "Persistent organic pollutants (POPs)",
+        "Methane"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q26",
+      "text": "What is the term for the process by which soil pollutants move downward through the soil profile?",
+      "options": ["Erosion", "Leaching", "Weathering", "Deposition"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q27",
+      "text": "Which of the following is a potential effect of soil pollution on human health?",
+      "options": [
+        "Increased nutrient intake",
+        "Respiratory problems",
+        "Improved immune function",
+        "Enhanced cognitive abilities"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q28",
+      "text": "What is a common method used to remediate soil pollution caused by heavy metals?",
+      "options": [
+        "Phytoremediation",
+        "Landfilling",
+        "Incineration",
+        "Composting"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q29",
+      "text": "Which of the following factors can exacerbate the effects of soil pollution on ecosystems?",
+      "options": [
+        "Soil pH",
+        "Soil texture",
+        "Climate conditions",
+        "Land use practices"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q30",
+      "text": "What is a potential long-term consequence of soil pollution on ecosystems?",
+      "options": [
+        "Enhanced biodiversity",
+        "Soil degradation",
+        "Nutrient enrichment",
+        "Carbon sequestration"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q31",
+      "text": "Which of the following is considered a primary air pollutant?",
+      "options": [
+        "Ozone (O3)",
+        "Sulfur dioxide (SO2)",
+        "Particulate matter (PM)",
+        "Nitrogen dioxide (NO2)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q32",
+      "text": "Which air pollutant is a major component of photochemical smog and contributes to respiratory problems?",
+      "options": [
+        "Carbon monoxide (CO)",
+        "Ozone (O3)",
+        "Nitrogen oxides (NOx)",
+        "Volatile organic compounds (VOCs)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q33",
+      "text": "What are the consequences of high levels of particulate matter (PM) in the air?",
+      "options": [
+        "Acid rain formation",
+        "Respiratory problems",
+        "Depletion of the ozone layer",
+        "Increased greenhouse gas emissions"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q34",
+      "text": "Which of the following sources primarily contributes to the emission of volatile organic compounds (VOCs)?",
+      "options": [
+        "Industrial processes",
+        "Agricultural activities",
+        "Motor vehicles",
+        "Waste incineration"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q35",
+      "text": "Which air pollutant is responsible for the formation of acid rain?",
+      "options": [
+        "Sulfur dioxide (SO2)",
+        "Carbon monoxide (CO)",
+        "Nitrogen oxides (NOx)",
+        "Lead (Pb)"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q36",
+      "text": "What is the primary source of indoor air pollution in residential areas?",
+      "options": [
+        "Radon gas",
+        "Mold spores",
+        "Tobacco smoke",
+        "Volatile organic compounds (VOCs) from furniture"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q37",
+      "text": "Which air pollutant is associated with the formation of ground-level ozone and contributes to smog formation?",
+      "options": [
+        "Carbon monoxide (CO)",
+        "Sulfur dioxide (SO2)",
+        "Nitrogen dioxide (NO2)",
+        "Lead (Pb)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q38",
+      "text": "What are the health effects of long-term exposure to air pollution?",
+      "options": [
+        "Respiratory diseases",
+        "Cardiovascular disorders",
+        "Neurological impairments",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q39",
+      "text": "Which air pollutant is a greenhouse gas that contributes to global warming and climate change?",
+      "options": [
+        "Methane (CH4)",
+        "Carbon dioxide (CO2)",
+        "Nitrous oxide (N2O)",
+        "Hydrochlorofluorocarbons (HCFCs)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q40",
+      "text": "What is a potential ecological consequence of air pollution on ecosystems?",
+      "options": [
+        "Disruption of food chains",
+        "Accelerated plant growth",
+        "Increased biodiversity",
+        "Restoration of degraded habitats"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q41",
+      "text": "What is radon?",
+      "options": [
+        "A radioactive gas",
+        "A heavy metal",
+        "A pesticide",
+        "A synthetic chemical"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q42",
+      "text": "How does radon enter homes?",
+      "options": [
+        "Through contaminated water",
+        "Through cracks in the foundation",
+        "Through the roof",
+        "Through windows"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q43",
+      "text": "What health risk is associated with radon exposure?",
+      "options": [
+        "Respiratory problems",
+        "Skin cancer",
+        "Lung cancer",
+        "Cardiovascular diseases"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q44",
+      "text": "What is the primary source of fluoride in drinking water?",
+      "options": [
+        "Industrial waste",
+        "Agricultural runoff",
+        "Natural geological formations",
+        "Sewage treatment plants"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q45",
+      "text": "At what concentration level does radon in drinking water become a concern for human health?",
+      "options": [
+        "1 picocurie per liter (pCi/L)",
+        "10 picocuries per liter (pCi/L)",
+        "100 picocuries per liter (pCi/L)",
+        "1,000 picocuries per liter (pCi/L)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q46",
+      "text": "What is the recommended concentration level of fluoride in drinking water to prevent dental caries without causing fluorosis?",
+      "options": [
+        "0.1 milligrams per liter (mg/L)",
+        "1 milligram per liter (mg/L)",
+        "2 milligrams per liter (mg/L)",
+        "4 milligrams per liter (mg/L)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q47",
+      "text": "What is dental fluorosis?",
+      "options": [
+        "Tooth decay",
+        "Gum disease",
+        "Excessive fluoride intake during tooth development",
+        "Enamel erosion"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q48",
+      "text": "How does fluoride in drinking water prevent dental caries?",
+      "options": [
+        "By strengthening tooth enamel",
+        "By reducing plaque formation",
+        "By inhibiting bacterial growth",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q49",
+      "text": "What health effect can occur due to long-term exposure to high levels of fluoride in drinking water?",
+      "options": [
+        "Dental fluorosis",
+        "Skeletal fluorosis",
+        "Lung cancer",
+        "Cardiovascular diseases"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q50",
+      "text": "What measures can be taken to reduce exposure to radon and fluoride in drinking water?",
+      "options": [
+        "Installation of radon mitigation systems",
+        "Use of fluoride filtration systems",
+        "Bottled water consumption",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q51",
+      "text": "What is environmental toxicology?",
+      "options": [
+        "The study of toxic chemicals in the environment",
+        "The study of ecological systems",
+        "The study of climate change",
+        "The study of renewable energy sources"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q52",
+      "text": "What are the primary sources of environmental toxins?",
+      "options": [
+        "Natural disasters",
+        "Industrial activities",
+        "Agricultural practices",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q53",
+      "text": "Which of the following is an example of a heavy metal toxin found in the environment?",
+      "options": [
+        "Carbon monoxide (CO)",
+        "Lead (Pb)",
+        "Ozone (O3)",
+        "Sulfur dioxide (SO2)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q54",
+      "text": "What health effects can result from exposure to environmental toxins?",
+      "options": [
+        "Respiratory problems",
+        "Neurological disorders",
+        "Cancer",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q55",
+      "text": "What is biomagnification?",
+      "options": [
+        "The degradation of toxic chemicals in the environment",
+        "The accumulation of toxins in the tissues of organisms",
+        "The dispersal of toxins through water bodies",
+        "The breakdown of toxins by microbial activity"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m3-q56",
+      "text": "Which of the following is a control measure for reducing environmental toxins?",
+      "options": [
+        "Pollution prevention",
+        "Waste management",
+        "Environmental regulations",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m3-q57",
+      "text": "What is phytoremediation?",
+      "options": [
+        "The use of plants to remove pollutants from the environment",
+        "The release of pollutants into the atmosphere",
+        "The degradation of pollutants by microorganisms",
+        "The treatment of polluted water using chemicals"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q58",
+      "text": "Which of the following is an example of a chemical control measure for environmental toxins?",
+      "options": [
+        "Bioremediation",
+        "Soil erosion control",
+        "Chemical neutralization",
+        "Wetland restoration"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m3-q59",
+      "text": "What is the role of risk assessment in environmental toxicology?",
+      "options": [
+        "Identifying potential hazards and evaluating their likelihood and consequences",
+        "Monitoring environmental pollutants",
+        "Developing new chemicals",
+        "Implementing pollution control measures"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m3-q60",
+      "text": "What is the precautionary principle in environmental toxicology?",
+      "options": [
+        "Taking preventive measures to minimize risks even in the absence of scientific certainty",
+        "Ignoring potential risks until they are proven beyond a doubt",
+        "Waiting for regulatory action before implementing pollution control measures",
+        "Maximizing pollutant emissions to stimulate economic growth"
+      ],
+      "correctAnswerIndex": 0
+    }
+  ]
+}

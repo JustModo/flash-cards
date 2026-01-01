@@ -1,0 +1,682 @@
+{
+  "id": "e2",
+  "title": "EVS MOD 2",
+  "description": "A collection of questions covering hydrogen, solar, OTEC, tidal, and wind energy, as well as the Bhopal and Chernobyl industrial disasters.",
+  "questions": [
+    {
+      "id": "m2-q1",
+      "text": "What is the chemical symbol for hydrogen?",
+      "options": ["He", "Hg", "H", "Hy"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q2",
+      "text": "What is the most common method of producing hydrogen on an industrial scale?",
+      "options": [
+        "Electrolysis of water",
+        "Biomass gasification",
+        "Steam reforming of natural gas",
+        "Photosynthesis"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q3",
+      "text": "What is the primary advantage of hydrogen as an energy carrier?",
+      "options": [
+        "Abundance",
+        "High energy density",
+        "Low cost",
+        "Environmental friendliness"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q4",
+      "text": "What is the combustion product when hydrogen is used as a fuel in a fuel cell?",
+      "options": ["Carbon dioxide", "Water", "Methane", "Oxygen"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q5",
+      "text": "Which of the following sectors is NOT a potential application for hydrogen energy?",
+      "options": [
+        "Transportation",
+        "Power generation",
+        "Agriculture",
+        "Industrial processes"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q6",
+      "text": "What is the term for the process of splitting water into hydrogen and oxygen using electricity?",
+      "options": ["Combustion", "Gasification", "Electrolysis", "Oxidation"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q7",
+      "text": "What is the main challenge associated with hydrogen storage?",
+      "options": [
+        "High cost",
+        "Low energy density",
+        "Limited availability",
+        "Safety concerns"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q8",
+      "text": "Which of the following materials is commonly used for hydrogen storage in solid-state storage systems?",
+      "options": [
+        "Steel tanks",
+        "Carbon fiber",
+        "Lithium-ion batteries",
+        "Aluminum"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q9",
+      "text": "What is the primary advantage of hydrogen fuel cells over internal combustion engines?",
+      "options": [
+        "Higher efficiency",
+        "Lower emissions",
+        "Lower cost",
+        "Higher power output"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q10",
+      "text": "What is the byproduct of hydrogen produced through steam methane reforming?",
+      "options": ["Carbon dioxide", "Water vapor", "Oxygen", "Nitrogen"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q11",
+      "text": "Which device is used to convert sunlight directly into electricity in solar energy systems?",
+      "options": [
+        "Solar collector",
+        "Solar panel",
+        "Solar thermal collector",
+        "Solar concentrator"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q12",
+      "text": "What material is commonly used to manufacture solar cells in photovoltaic panels?",
+      "options": ["Silicon", "Aluminum", "Copper", "Lead"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q13",
+      "text": "Which of the following is NOT a type of solar energy system?",
+      "options": [
+        "Solar photovoltaic (PV)",
+        "Solar thermal",
+        "Solar geothermal",
+        "Concentrated solar power (CSP)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q14",
+      "text": "What is the term for the angle at which solar panels are installed relative to the horizontal plane?",
+      "options": ["Inclination", "Tilt", "Orientation", "Pitch"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q15",
+      "text": "Which of the following factors affects the efficiency of solar panels?",
+      "options": ["Temperature", "Humidity", "Wind speed", "Soil composition"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q16",
+      "text": "What is the term for the process of using mirrors or lenses to concentrate sunlight onto a small area to generate electricity?",
+      "options": [
+        "Solar photovoltaic (PV)",
+        "Solar thermal",
+        "Solar geothermal",
+        "Concentrated solar power (CSP)"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q17",
+      "text": "What is the primary advantage of solar energy?",
+      "options": [
+        "Unlimited availability",
+        "Low maintenance costs",
+        "High energy density",
+        "Environmentally friendly"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q18",
+      "text": "Which region receives the highest solar radiation intensity?",
+      "options": [
+        "Polar regions",
+        "Desert regions",
+        "Tropical regions",
+        "Temperate regions"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q19",
+      "text": "What is the term for the process of converting sunlight into heat for heating water or air?",
+      "options": [
+        "Solar photovoltaic (PV)",
+        "Solar thermal",
+        "Solar geothermal",
+        "Concentrated solar power (CSP)"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q20",
+      "text": "What is the efficiency of commercially available solar panels typically ranging from?",
+      "options": ["10% to 20%", "30% to 40%", "50% to 60%", "70% to 80%"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q21",
+      "text": "What does OTEC stand for?",
+      "options": [
+        "Oceanic Thermal Energy Conversion",
+        "Oceanic Temperature Energy Control",
+        "Ocean Thermal Energy Conversion",
+        "Oceanic Turbulent Energy Capture"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q22",
+      "text": "What is the primary source of energy for OTEC systems?",
+      "options": [
+        "Sunlight",
+        "Wind",
+        "Ocean currents",
+        "Temperature difference"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q23",
+      "text": "Which of the following best describes the working principle of OTEC technology?",
+      "options": [
+        "Conversion of ocean currents into electricity",
+        "Conversion of wind energy into electricity",
+        "Conversion of temperature difference into electricity",
+        "Conversion of tidal energy into electricity"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q24",
+      "text": "What is the typical temperature difference required for efficient OTEC operation?",
+      "options": ["5°C", "10°C", "20°C", "30°C"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q25",
+      "text": "Which of the following OTEC configurations requires a long pipeline to bring cold water to the surface?",
+      "options": [
+        "Closed-cycle OTEC",
+        "Open-cycle OTEC",
+        "Hybrid OTEC",
+        "Floating OTEC"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q26",
+      "text": "What is the primary advantage of OTEC technology?",
+      "options": [
+        "Low environmental impact",
+        "High efficiency",
+        "Low cost",
+        "High energy density"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q27",
+      "text": "Which OTEC system configuration requires a constant supply of warm surface water and cold deep water?",
+      "options": [
+        "Closed-cycle OTEC",
+        "Open-cycle OTEC",
+        "Hybrid OTEC",
+        "Floating OTEC"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q28",
+      "text": "What is the main limitation of OTEC technology for widespread implementation?",
+      "options": [
+        "High construction costs",
+        "Limited availability of suitable locations",
+        "Low energy conversion efficiency",
+        "High maintenance requirements"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q29",
+      "text": "Which OTEC system configuration combines features of both closed-cycle and open-cycle OTEC?",
+      "options": [
+        "Closed-cycle OTEC",
+        "Open-cycle OTEC",
+        "Hybrid OTEC",
+        "Floating OTEC"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q30",
+      "text": "What is the primary application of OTEC-generated electricity?",
+      "options": [
+        "Residential electricity supply",
+        "Industrial processes",
+        "Desalination",
+        "Hydrogen production"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q31",
+      "text": "What is tidal energy?",
+      "options": [
+        "Energy generated from tidal waves",
+        "Energy generated from ocean currents",
+        "Energy generated from the gravitational pull of the moon and the sun",
+        "Energy generated from wind-driven waves"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q32",
+      "text": "What is the main factor determining the magnitude of tidal energy potential at a location?",
+      "options": [
+        "Wind speed",
+        "Ocean depth",
+        "Distance from the equator",
+        "Tidal range"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q33",
+      "text": "Which of the following technologies is used to capture tidal energy?",
+      "options": [
+        "Tidal barrages",
+        "Tidal turbines",
+        "Tidal fences",
+        "Tidal lagoons"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q34",
+      "text": "What is the term for the phenomenon where tidal currents reverse direction approximately every six hours?",
+      "options": ["Flood tide", "Ebb tide", "Tidal stream", "Tidal bore"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q35",
+      "text": "Which of the following regions generally has the greatest potential for tidal energy generation?",
+      "options": [
+        "Deep ocean",
+        "Coastal areas",
+        "Inland lakes",
+        "Polar regions"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q36",
+      "text": "What is the primary advantage of tidal energy compared to other renewable energy sources?",
+      "options": [
+        "Predictability",
+        "Scalability",
+        "Affordability",
+        "Accessibility"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q37",
+      "text": "Which of the following is a potential environmental impact of tidal energy installations?",
+      "options": [
+        "Noise pollution",
+        "Soil erosion",
+        "Air pollution",
+        "Groundwater contamination"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q38",
+      "text": "What is the term for a large dam-like structure built across an estuary to capture tidal energy?",
+      "options": [
+        "Tidal turbine",
+        "Tidal fence",
+        "Tidal barrage",
+        "Tidal lagoon"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q39",
+      "text": "Which of the following countries has made significant investments in tidal energy technology?",
+      "options": ["Brazil", "Australia", "Canada", "Russia"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q40",
+      "text": "What is the term for the process of converting tidal energy into electricity?",
+      "options": [
+        "Tidal pumping",
+        "Tidal conversion",
+        "Tidal power",
+        "Tidal harvesting"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q41",
+      "text": "What is wind energy?",
+      "options": [
+        "Energy generated from ocean waves",
+        "Energy generated from geothermal heat",
+        "Energy generated from the movement of air",
+        "Energy generated from tidal currents"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q42",
+      "text": "Which of the following is NOT a type of wind turbine?",
+      "options": [
+        "Horizontal-axis",
+        "Vertical-axis",
+        "Tidal turbine",
+        "Darrieus"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q43",
+      "text": "What is the primary factor that determines the amount of electricity produced by a wind turbine?",
+      "options": [
+        "Wind speed",
+        "Blade length",
+        "Turbine height",
+        "Geographic location"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q44",
+      "text": "Which type of wind turbine is commonly used in large-scale commercial wind farms?",
+      "options": ["Horizontal-axis", "Vertical-axis", "Darrieus", "Savonius"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q45",
+      "text": "What is the name of the component responsible for converting wind energy into mechanical energy in a wind turbine?",
+      "options": ["Gearbox", "Generator", "Rotor", "Tower"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q46",
+      "text": "Which of the following factors affects the efficiency of wind turbines?",
+      "options": [
+        "Wind direction",
+        "Turbine color",
+        "Blade material",
+        "Wind shear"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q47",
+      "text": "What is the name of the process used to assess the wind energy potential of a site?",
+      "options": [
+        "Wind zoning",
+        "Wind mapping",
+        "Wind resource assessment",
+        "Wind forecasting"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q48",
+      "text": "Which of the following regions typically has the greatest potential for wind energy generation?",
+      "options": [
+        "Coastal areas",
+        "Desert regions",
+        "Mountainous regions",
+        "Polar regions"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q49",
+      "text": "What is the term for the minimum wind speed required for a wind turbine to start generating electricity?",
+      "options": [
+        "Cut-in speed",
+        "Rated speed",
+        "Cut-out speed",
+        "Stall speed"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q50",
+      "text": "What is the main advantage of wind energy compared to fossil fuels?",
+      "options": [
+        "Lower cost",
+        "Limited environmental impact",
+        "Greater energy density",
+        "Higher availability"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q51",
+      "text": "When did the Bhopal Gas Tragedy occur?",
+      "options": ["1982", "1984", "1986", "1988"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q52",
+      "text": "What was the cause of the Bhopal Gas Tragedy?",
+      "options": ["Industrial fire", "Chemical spill", "Explosion", "Gas leak"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q53",
+      "text": "Which gas leaked during the Bhopal Gas Tragedy?",
+      "options": [
+        "Chlorine",
+        "Ammonia",
+        "Methyl Isocyanate (MIC)",
+        "Carbon monoxide"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q54",
+      "text": "What was the immediate cause of the gas leak at the Union Carbide plant in Bhopal?",
+      "options": [
+        "Human error",
+        "Equipment malfunction",
+        "Safety protocol failure",
+        "Sabotage"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q55",
+      "text": "How many people were estimated to have died as a result of the Bhopal Gas Tragedy?",
+      "options": [
+        "Approximately 1,000",
+        "Approximately 3,000",
+        "Approximately 5,000",
+        "Approximately 10,000"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q56",
+      "text": "What health effects were observed among survivors of the Bhopal Gas Tragedy?",
+      "options": [
+        "Respiratory issues",
+        "Eye irritation",
+        "Skin burns",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q57",
+      "text": "What was the legal settlement reached between Union Carbide Corporation and the Indian government following the Bhopal Gas Tragedy?",
+      "options": ["$100 million", "$250 million", "$470 million", "$1 billion"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q58",
+      "text": "What was the long-term environmental impact of the Bhopal Gas Tragedy?",
+      "options": [
+        "Contamination of soil and groundwater",
+        "Air pollution",
+        "Deforestation",
+        "Global warming"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q59",
+      "text": "What international organization conducted an investigation into the Bhopal Gas Tragedy?",
+      "options": [
+        "World Health Organization (WHO)",
+        "United Nations (UN)",
+        "Greenpeace",
+        "Amnesty International"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q60",
+      "text": "What safety measures were recommended following the Bhopal Gas Tragedy to prevent similar incidents?",
+      "options": [
+        "Improved emergency response training",
+        "Enhanced safety protocols",
+        "Implementation of better chemical storage practices",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q61",
+      "text": "When did the Chernobyl disaster occur?",
+      "options": ["1984", "1986", "1989", "1991"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m2-q62",
+      "text": "What caused the Chernobyl disaster?",
+      "options": [
+        "Earthquake",
+        "Terrorist attack",
+        "Equipment malfunction during a safety test",
+        "Human error during routine operation"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q63",
+      "text": "What type of nuclear reactor was Chernobyl's Reactor Number 4?",
+      "options": [
+        "Pressurized Water Reactor (PWR)",
+        "Boiling Water Reactor (BWR)",
+        "Gas-cooled Reactor (AGR)",
+        "RBMK Reactor"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q64",
+      "text": "What was the immediate cause of the Chernobyl disaster?",
+      "options": [
+        "Loss of coolant",
+        "Explosion of the reactor core",
+        "Fire in the turbine hall",
+        "Steam explosion following a power surge"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q65",
+      "text": "Which radioactive element was released into the atmosphere during the Chernobyl disaster?",
+      "options": ["Uranium", "Plutonium", "Cesium-137", "Radon"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q66",
+      "text": "What was the immediate response to the Chernobyl disaster?",
+      "options": [
+        "Immediate evacuation of nearby towns",
+        "Deployment of emergency response teams",
+        "Firefighting operations",
+        "Containment efforts"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m2-q67",
+      "text": "What was the long-term health impact of the Chernobyl disaster?",
+      "options": [
+        "Increased rates of cancer",
+        "Respiratory diseases",
+        "Neurological disorders",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q68",
+      "text": "Which of the following countries was most affected by the Chernobyl disaster?",
+      "options": ["Ukraine", "Belarus", "Russia", "All of the above"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m2-q69",
+      "text": "What was the long-term environmental impact of the Chernobyl disaster?",
+      "options": [
+        "Radioactive contamination of land and water",
+        "Deforestation",
+        "Soil erosion",
+        "Desertification"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m2-q70",
+      "text": "What safety measures were implemented following the Chernobyl disaster to prevent similar incidents?",
+      "options": [
+        "Improved reactor design",
+        "Strengthened safety regulations",
+        "Emergency response training",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ]
+}

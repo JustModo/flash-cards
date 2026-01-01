@@ -1,0 +1,527 @@
+{
+  "id": "e4",
+  "title": "EVS MOD 4",
+  "description": "Comprehensive review of solid waste characteristics (density, moisture, pH), environmental and health impacts of hazardous waste, and specialized recovery methods for electronic waste.",
+  "questions": [
+    {
+      "id": "m4-q1",
+      "text": "What is the primary determinant of the density of solid waste?",
+      "options": [
+        "Moisture content",
+        "Particle size",
+        "Composition",
+        "pH level"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q2",
+      "text": "Which type of solid waste typically has the highest density?",
+      "options": [
+        "Organic waste",
+        "Plastic waste",
+        "Glass waste",
+        "Metal waste"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q3",
+      "text": "What effect does compaction have on the density of solid waste?",
+      "options": [
+        "Decreases it",
+        "Increases it",
+        "Has no effect",
+        "Depends on the type of waste"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q4",
+      "text": "In which unit is density of solid waste commonly measured?",
+      "options": [
+        "Grams per liter (g/L)",
+        "Pounds per cubic yard (lbs/yd³)",
+        "Kilograms per cubic meter (kg/m³)",
+        "Tons per square foot (tons/ft²)"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q5",
+      "text": "What impact does recycling have on the density of solid waste?",
+      "options": [
+        "Decreases it",
+        "Increases it",
+        "No significant impact",
+        "Depends on the recycling method"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q6",
+      "text": "Which component of solid waste generally contributes to a lower density?",
+      "options": [
+        "Inorganic materials",
+        "Organic materials",
+        "Plastics",
+        "Metals"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q7",
+      "text": "How does the density of solid waste typically change with age?",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Remains constant",
+        "Fluctuates unpredictably"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q8",
+      "text": "What is the approximate density range of compacted municipal solid waste (MSW)?",
+      "options": [
+        "50-200 kg/m³",
+        "300-600 kg/m³",
+        "800-1000 kg/m³",
+        "1200-1500 kg/m³"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q9",
+      "text": "Which method is commonly used to measure the density of solid waste in a landfill?",
+      "options": [
+        "Gravimetric analysis",
+        "Spectroscopic analysis",
+        "Density meter",
+        "Landfill gas analysis"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q10",
+      "text": "How does the density of solid waste impact transportation and disposal costs?",
+      "options": [
+        "Higher density leads to lower costs",
+        "Lower density leads to lower costs",
+        "Density has no impact on costs",
+        "Transportation and disposal costs are unrelated to density"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q11",
+      "text": "What does moisture content in solid waste refer to?",
+      "options": [
+        "The weight of the waste",
+        "The percentage of water present in the waste",
+        "The volume of the waste",
+        "The color of the waste"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q12",
+      "text": "Which of the following factors affects the moisture content of solid waste?",
+      "options": ["Temperature", "Density", "Color", "Composition"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q13",
+      "text": "What is the typical range of moisture content in municipal solid waste (MSW)?",
+      "options": ["0-10%", "10-20%", "20-30%", "30-40%"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q14",
+      "text": "Higher moisture content in solid waste can lead to:",
+      "options": [
+        "Lower transportation costs",
+        "Decreased odor generation",
+        "Increased leachate production",
+        "Enhanced recycling potential"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q15",
+      "text": "How is moisture content in solid waste usually measured?",
+      "options": [
+        "pH testing",
+        "Electrical conductivity",
+        "Gravimetric analysis",
+        "Spectroscopy"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q16",
+      "text": "What is the significance of moisture content in waste-to-energy processes?",
+      "options": [
+        "Higher moisture content leads to more efficient energy conversion",
+        "Lower moisture content reduces combustion efficiency",
+        "Moisture content has no impact on waste-to-energy processes",
+        "Moisture content affects only the emission levels"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q17",
+      "text": "How does moisture content affect landfill operations?",
+      "options": [
+        "It decreases the risk of groundwater contamination",
+        "It reduces the need for landfill liners",
+        "It increases the weight of waste disposed",
+        "It accelerates the decomposition process"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q18",
+      "text": "Which type of waste typically has the highest moisture content?",
+      "options": [
+        "Construction and demolition waste",
+        "Plastic waste",
+        "Food waste",
+        "Paper and cardboard waste"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q19",
+      "text": "What methods are commonly used to reduce moisture content in solid waste?",
+      "options": [
+        "Incineration",
+        "Composting",
+        "Compaction",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q20",
+      "text": "In waste management, why is it important to monitor and control moisture content?",
+      "options": [
+        "To ensure compliance with regulations",
+        "To optimize waste treatment processes",
+        "To minimize environmental impacts",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q21",
+      "text": "Which of the following chemical characteristics is often used to classify solid waste?",
+      "options": ["pH", "Density", "Volume", "Color"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q22",
+      "text": "The pH of solid waste can indicate:",
+      "options": [
+        "Its color",
+        "Its acidity or alkalinity",
+        "Its density",
+        "Its volume"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q23",
+      "text": "Which of the following materials contributes to the high pH of solid waste?",
+      "options": ["Organic matter", "Metals", "Plastics", "Glass"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q24",
+      "text": "Why is monitoring the pH of solid waste important in waste management?",
+      "options": [
+        "To assess its weight",
+        "To determine its recyclability",
+        "To prevent environmental contamination",
+        "To enhance its color"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q25",
+      "text": "Which chemical component of solid waste can lead to leachate pollution if not managed properly?",
+      "options": ["Heavy metals", "Organic matter", "Glass", "Plastics"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q26",
+      "text": "What is the primary source of heavy metals in solid waste?",
+      "options": [
+        "Organic matter",
+        "Plastic packaging",
+        "Industrial waste",
+        "Glass containers"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q27",
+      "text": "Which chemical characteristic of solid waste is crucial in determining its suitability for composting?",
+      "options": [
+        "High heavy metal content",
+        "Low organic matter content",
+        "Neutral pH",
+        "High plastic content"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q28",
+      "text": "What does the term 'reactive waste' refer to in the context of chemical characteristics of solid waste?",
+      "options": [
+        "Waste that easily reacts with other materials",
+        "Waste with high organic content",
+        "Waste with low pH",
+        "Waste with high plastic content"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q29",
+      "text": "Which chemical component in solid waste is responsible for generating methane during decomposition?",
+      "options": ["Heavy metals", "Plastics", "Organic matter", "Glass"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q30",
+      "text": "How does the chemical composition of solid waste influence its potential for energy recovery?",
+      "options": [
+        "Higher organic content leads to lower energy recovery potential",
+        "Higher plastic content enhances energy recovery efficiency",
+        "Heavy metals facilitate energy conversion",
+        "Organic matter contributes to energy generation through combustion"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q31",
+      "text": "What health issues can arise from exposure to hazardous waste?",
+      "options": [
+        "Skin irritation",
+        "Respiratory problems",
+        "Cancer",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q32",
+      "text": "Which of the following routes of exposure to hazardous waste is most common?",
+      "options": [
+        "Inhalation",
+        "Ingestion",
+        "Dermal contact",
+        "All are equally common"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q33",
+      "text": "Chronic exposure to hazardous waste containing heavy metals can lead to:",
+      "options": [
+        "Neurological disorders",
+        "Respiratory infections",
+        "Vision impairment",
+        "Allergic reactions"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q34",
+      "text": "How does exposure to hazardous waste impact reproductive health?",
+      "options": [
+        "It has no effect on reproductive health",
+        "It can cause infertility and birth defects",
+        "It leads to increased fertility",
+        "It reduces the risk of birth defects"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q35",
+      "text": "What is one potential consequence of exposure to hazardous waste containing volatile organic compounds (VOCs)?",
+      "options": [
+        "Enhanced immune system",
+        "Reduced risk of respiratory diseases",
+        "Development of respiratory diseases like asthma",
+        "Improved cognitive function"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q36",
+      "text": "Which population group is often most vulnerable to the health effects of hazardous waste?",
+      "options": [
+        "Teenagers",
+        "Elderly individuals",
+        "Pregnant women",
+        "Athletes"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q37",
+      "text": "How can hazardous waste impact the immune system?",
+      "options": [
+        "It enhances immune function",
+        "It weakens immune function",
+        "It has no effect on the immune system",
+        "It increases susceptibility to allergies"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q38",
+      "text": "Exposure to hazardous waste containing asbestos can lead to:",
+      "options": [
+        "Skin cancer",
+        "Liver damage",
+        "Mesothelioma",
+        "Hearing loss"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q39",
+      "text": "Long-term exposure to hazardous waste may increase the risk of developing:",
+      "options": [
+        "Obesity",
+        "Diabetes",
+        "Cardiovascular diseases",
+        "Osteoporosis"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q40",
+      "text": "Which government agency in the United States regulates hazardous waste to protect human health and the environment?",
+      "options": [
+        "Environmental Protection Agency (EPA)",
+        "Food and Drug Administration (FDA)",
+        "Occupational Safety and Health Administration (OSHA)",
+        "Centers for Disease Control and Prevention (CDC)"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q41",
+      "text": "Which of the following is NOT a common approach for recycling and metal recovery from e-waste?",
+      "options": [
+        "Mechanical recycling",
+        "Incineration",
+        "Pyrometallurgical processing",
+        "Hydrometallurgical processing"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q42",
+      "text": "Mechanical recycling of e-waste involves:",
+      "options": [
+        "Crushing and shredding to separate materials",
+        "Burning e-waste to extract metals",
+        "Dissolving e-waste in solvents",
+        "Directly landfilling e-waste"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "id": "m4-q43",
+      "text": "Which method is commonly used for the recovery of precious metals like gold and silver from e-waste?",
+      "options": [
+        "Pyrolysis",
+        "Hydrometallurgical processing",
+        "Landfilling",
+        "Incineration"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q44",
+      "text": "Pyrometallurgical processing of e-waste involves:",
+      "options": [
+        "Dissolving e-waste in water",
+        "Subjecting e-waste to high temperatures to separate metals",
+        "Crushing e-waste into fine powder",
+        "Sorting e-waste based on color"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q45",
+      "text": "What is the primary advantage of hydrometallurgical processing for metal recovery from e-waste?",
+      "options": [
+        "High energy consumption",
+        "Low environmental impact",
+        "Generation of toxic fumes",
+        "Minimal use of chemicals"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "id": "m4-q46",
+      "text": "Which approach focuses on extracting metals from e-waste using chemical solutions?",
+      "options": [
+        "Mechanical recycling",
+        "Pyrometallurgical processing",
+        "Hydrometallurgical processing",
+        "Incineration"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q47",
+      "text": "Which method is more suitable for recovering metals from printed circuit boards (PCBs) in e-waste?",
+      "options": [
+        "Mechanical recycling",
+        "Incineration",
+        "Pyrometallurgical processing",
+        "Hydrometallurgical processing"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q48",
+      "text": "What is a potential drawback of mechanical recycling of e-waste?",
+      "options": [
+        "High energy consumption",
+        "Low recovery rates for precious metals",
+        "Generation of toxic emissions",
+        "Limited applicability to certain e-waste components"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "id": "m4-q49",
+      "text": "Which method of e-waste recycling involves melting down materials to separate metals?",
+      "options": [
+        "Mechanical recycling",
+        "Incineration",
+        "Pyrometallurgical processing",
+        "Hydrometallurgical processing"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "id": "m4-q50",
+      "text": "Which approach of e-waste recycling is most effective for recovering valuable metals from integrated circuits?",
+      "options": [
+        "Mechanical recycling",
+        "Incineration",
+        "Pyrometallurgical processing",
+        "Hydrometallurgical processing"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ]
+}
