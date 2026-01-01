@@ -13,10 +13,16 @@ interface QuizState {
     // Total number of questions in the current collection
     totalQuestions: number;
 
+    // Mode of the session
+    mode: 'normal' | 'study';
+    // Current index for study mode
+    studyIndex: number;
+
     // Actions
-    initializeSession: (questions: Question[]) => void;
+    initializeSession: (questions: Question[], mode?: 'normal' | 'study') => void;
     submitAnswer: (answerIndex: number) => { isCorrect: boolean; correctIndex: number };
     nextQuestion: () => void;
+    prevQuestion: () => void;
     resetSession: () => void;
 }
 
@@ -36,15 +42,30 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     currentQuestion: null,
     questionVersion: 0,
     totalQuestions: 0,
+    mode: 'normal',
+    studyIndex: 0,
 
-    initializeSession: (questions) => {
-        const shuffled = shuffleArray(questions);
-        set({
-            queue: shuffled,
-            finished: [],
-            currentQuestion: shuffled.length > 0 ? shuffled[0] : null,
-            totalQuestions: questions.length,
-        });
+    initializeSession: (questions, mode = 'normal') => {
+        if (mode === 'study') {
+            set({
+                mode: 'study',
+                queue: questions, // No shuffle
+                finished: [],
+                currentQuestion: questions.length > 0 ? questions[0] : null,
+                totalQuestions: questions.length,
+                studyIndex: 0,
+            });
+        } else {
+            const shuffled = shuffleArray(questions);
+            set({
+                mode: 'normal',
+                queue: shuffled,
+                finished: [],
+                currentQuestion: shuffled.length > 0 ? shuffled[0] : null,
+                totalQuestions: questions.length,
+                studyIndex: 0,
+            });
+        }
     },
 
     submitAnswer: (answerIndex) => {
@@ -86,24 +107,53 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     },
 
     nextQuestion: () => {
-        let { queue, finished } = get();
+        const { mode, queue, studyIndex } = get();
+
+        if (mode === 'study') {
+            const nextIndex = studyIndex + 1;
+            if (nextIndex < queue.length) {
+                set({
+                    studyIndex: nextIndex,
+                    currentQuestion: queue[nextIndex],
+                    questionVersion: get().questionVersion + 1,
+                });
+            }
+            return;
+        }
+
+        let { finished } = get();
+        let currentQueue = get().queue; // Use fresh ref
 
         // If queue is empty but we have finished questions, recycle them
-        if (queue.length === 0 && finished.length > 0) {
-            queue = shuffleArray(finished);
+        if (currentQueue.length === 0 && finished.length > 0) {
+            currentQueue = shuffleArray(finished);
             finished = [];
         }
 
         const currentVersion = get().questionVersion;
         set({
-            queue,
+            queue: currentQueue,
             finished,
-            currentQuestion: queue.length > 0 ? queue[0] : null,
+            currentQuestion: currentQueue.length > 0 ? currentQueue[0] : null,
             questionVersion: currentVersion + 1,
         });
     },
 
+    prevQuestion: () => {
+        const { mode, queue, studyIndex } = get();
+        if (mode === 'study') {
+            const prevIndex = studyIndex - 1;
+            if (prevIndex >= 0) {
+                set({
+                    studyIndex: prevIndex,
+                    currentQuestion: queue[prevIndex],
+                    questionVersion: get().questionVersion + 1,
+                });
+            }
+        }
+    },
+
     resetSession: () => {
-        set({ queue: [], finished: [], currentQuestion: null, questionVersion: 0, totalQuestions: 0 });
+        set({ queue: [], finished: [], currentQuestion: null, questionVersion: 0, totalQuestions: 0, mode: 'normal', studyIndex: 0 });
     }
 }));
