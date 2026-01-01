@@ -93,68 +93,73 @@ export default function Quiz() {
     };
 
     if (!collection) {
-        return <div className="h-screen flex items-center justify-center text-black/50">Not found</div>;
+        return <div className="h-screen flex items-center justify-center text-muted-foreground">Not found</div>;
     }
 
     if (!currentQuestion) {
-        return <div className="h-screen flex items-center justify-center text-black/30">Loading...</div>;
+        return <div className="h-screen flex items-center justify-center text-muted-foreground/50">Loading...</div>;
     }
 
-    // Background flash
-    let bgClass = "bg-white";
+    // Background flash - adjust for dark mode
+    let bgClass = "bg-background";
     if (mode === 'normal' && isAnswered && result?.isCorrect) {
-        bgClass = "bg-green-50";
+        // Crisp green for both light and dark
+        bgClass = "bg-green-50 dark:bg-emerald-950/30";
     }
 
     return (
         <div
-            className={`h-screen ${bgClass} flex flex-col transition-colors duration-200`}
+            className={`h-screen ${bgClass} flex flex-col transition-colors duration-200 text-foreground`}
             onClick={handleScreenClick}
         >
             {/* Header - minimal */}
             <header className="px-4 py-3 flex items-center shrink-0">
-                <Link to="/" className="p-2 -ml-2 text-black active:bg-black/5 rounded">
+                <Link to="/" className="p-2 -ml-2 text-foreground active:bg-muted/50 rounded hover:bg-muted/10">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M15 18l-6-6 6-6" />
                     </svg>
                 </Link>
-                <span className="ml-2 text-xs font-medium text-black/40 uppercase tracking-wider truncate">
+                <span className="ml-2 text-xs font-medium text-muted-foreground uppercase tracking-wider truncate">
                     {collection.title}
                 </span>
-                <span className="ml-auto text-sm font-medium text-black/60">
+                <span className="ml-auto text-sm font-medium text-muted-foreground">
                     {mode === 'study' ? `${studyIndex + 1} / ${totalQuestions}` : `${finished.length} / ${totalQuestions}`}
                 </span>
             </header>
 
             {/* Question */}
-            <div className="px-4 pt-2 pb-4 flex flex-col h-32">
-                <h2 className="text-base font-bold text-black leading-snug">
+            <div className="px-4 pt-2 pb-4 flex flex-col min-h-32 justify-center">
+                <h2 className="text-base font-bold leading-snug">
                     {currentQuestion.text}
                 </h2>
             </div>
 
             {/* Options - stacked below question */}
-            <div className="border-t border-black/10 relative flex-1 flex flex-col" onClick={mode === 'study' ? handleStudyNav : undefined}>
+            <div className="border-t border-border relative flex-1 flex flex-col" onClick={mode === 'study' ? handleStudyNav : undefined}>
                 <div className="w-full">
                 {mappedOptions.map(({ text, originalIndex }, idx) => {
-                    let optionBg = "bg-white";
-                    let optionText = "text-black";
+                    let optionBg = "bg-background";
+                    let optionText = "text-foreground";
                     let opacity = "";
+                    let borderColor = "border-border";
 
                     if (mode === 'study') {
                         if (originalIndex === currentQuestion.correctAnswerIndex) {
-                            optionBg = "bg-green-100";
-                            optionText = "text-green-800";
+                            optionBg = "bg-green-100 dark:bg-emerald-900/40";
+                            optionText = "text-green-800 dark:text-emerald-200";
+                            borderColor = "border-green-200 dark:border-emerald-800";
                         } else {
                             opacity = "opacity-50";
                         }
                     } else if (isAnswered) {
                          if (originalIndex === result?.correctIndex) {
-                            optionBg = "bg-green-100";
-                            optionText = "text-green-800";
+                            optionBg = "bg-green-100 dark:bg-emerald-900/40";
+                            optionText = "text-green-800 dark:text-emerald-200";
+                            borderColor = "border-green-200 dark:border-emerald-800";
                         } else if (originalIndex === selectedOption && !result?.isCorrect) {
-                            optionBg = "bg-red-100";
-                            optionText = "text-red-800";
+                            optionBg = "bg-red-100 dark:bg-red-900/40";
+                            optionText = "text-red-800 dark:text-red-200";
+                            borderColor = "border-red-200 dark:border-red-800";
                         } else {
                             opacity = "opacity-30";
                         }
@@ -172,10 +177,10 @@ export default function Quiz() {
                             }}
                             className={`
                                 w-full px-4 py-4 text-left text-sm font-medium
-                                border-b border-black/10 last:border-b-0
+                                border-b ${borderColor} last:border-b-0
                                 transition-colors
                                 ${optionBg} ${optionText} ${opacity}
-                                ${(!isAnswered && mode !== 'study') ? 'active:bg-black/5' : ''}
+                                ${(!isAnswered && mode !== 'study') ? 'active:bg-muted/20 hover:bg-muted/10' : ''}
                                 ${pointerEvents}
                             `}
                         >
@@ -187,33 +192,30 @@ export default function Quiz() {
 
                 {mode === 'study' && (
                     <>
-                        {/* Navigation Overlay Areas (Invisible but clickable) - positioned absolutely over the remaining space */}
+                        {/* Navigation Overlay Areas (Invisible but clickable) - removed hover effects */}
                         <div className="absolute inset-0 z-10 flex cursor-pointer">
-                            <div className="w-1/2 h-full hover:bg-black/5 transition-colors active:bg-black/10 flex items-center justify-start pl-4" title="Previous">
-                                {/* Optional: Add hover indicators if needed, keeping it invisible for now as per original request but cleaner */}
-                            </div>
-                            <div className="w-1/2 h-full hover:bg-black/5 transition-colors active:bg-black/10 flex items-center justify-end pr-4" title="Next">
-                            </div>
+                            <div className="w-1/2 h-full flex items-center justify-start pl-4" title="Previous" />
+                            <div className="w-1/2 h-full flex items-center justify-end pr-4" title="Next" />
                         </div>
                         
                         {/* Instructions Overlay */}
                         {showInstructions && (
-                            <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-white/95 backdrop-blur-sm p-4">
+                            <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-background/95 backdrop-blur-sm p-4 animate-in fade-in duration-200">
                                 <div className="flex w-full flex-1 items-center">
-                                    <div className="w-1/2 flex flex-col items-center justify-center border-r border-black/10 p-4 text-center h-40">
-                                        <div className="text-4xl mb-4 text-black/20">←</div>
-                                        <div className="text-sm font-bold text-black/60">Previous Question</div>
-                                        <div className="text-xs text-black/40 mt-1">Tap left side</div>
+                                    <div className="w-1/2 flex flex-col items-center justify-center border-r border-border p-4 text-center h-40">
+                                        <div className="text-4xl mb-4 text-muted-foreground/20">←</div>
+                                        <div className="text-sm font-bold text-muted-foreground">Previous Question</div>
+                                        <div className="text-xs text-muted-foreground/60 mt-1">Tap left side</div>
                                     </div>
                                     <div className="w-1/2 flex flex-col items-center justify-center p-4 text-center h-40">
-                                        <div className="text-4xl mb-4 text-black/20">→</div>
-                                        <div className="text-sm font-bold text-black/60">Next Question</div>
-                                        <div className="text-xs text-black/40 mt-1">Tap right side</div>
+                                        <div className="text-4xl mb-4 text-muted-foreground/20">→</div>
+                                        <div className="text-sm font-bold text-muted-foreground">Next Question</div>
+                                        <div className="text-xs text-muted-foreground/60 mt-1">Tap right side</div>
                                     </div>
                                 </div>
                                 <button 
                                     onClick={(e) => { e.stopPropagation(); setShowInstructions(false); }}
-                                    className="mb-8 px-8 py-3 bg-black text-white text-sm font-bold rounded-full shadow-lg active:scale-95 transition-transform"
+                                    className="mb-8 px-8 py-3 bg-primary text-primary-foreground text-sm font-bold rounded-full shadow-lg active:scale-95 transition-transform"
                                 >
                                     Understand
                                 </button>
