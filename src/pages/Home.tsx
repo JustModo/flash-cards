@@ -14,7 +14,7 @@ export default function Home() {
             </header>
 
             {/* Study Mode Banner */}
-            <div className="mx-4 mb-6 p-4 bg-gray-50 border border-black/5 rounded-xl">
+            <div className="mb-6 p-4 bg-gray-50 border border-black/5">
                 <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
                         <h2 className="text-sm font-bold text-black mb-1">Study Mode</h2>
