@@ -213,12 +213,6 @@ export default function Quiz() {
                                         <div className="text-xs text-muted-foreground/60 mt-1">Tap right side</div>
                                     </div>
                                 </div>
-                                <button 
-                                    onClick={(e) => { e.stopPropagation(); setShowInstructions(false); }}
-                                    className="mb-8 px-8 py-3 bg-primary text-primary-foreground text-sm font-bold rounded-full shadow-lg active:scale-95 transition-transform"
-                                >
-                                    Understand
-                                </button>
                             </div>
                         )}
                     </>
