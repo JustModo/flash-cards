@@ -10,6 +10,8 @@ interface QuizState {
     currentQuestion: Question | null;
     // Version counter to force UI updates even if question object is same
     questionVersion: number;
+    // Total number of questions in the current collection
+    totalQuestions: number;
 
     // Actions
     initializeSession: (questions: Question[]) => void;
@@ -33,6 +35,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     finished: [],
     currentQuestion: null,
     questionVersion: 0,
+    totalQuestions: 0,
 
     initializeSession: (questions) => {
         const shuffled = shuffleArray(questions);
@@ -40,6 +43,7 @@ export const useQuizStore = create<QuizState>((set, get) => ({
             queue: shuffled,
             finished: [],
             currentQuestion: shuffled.length > 0 ? shuffled[0] : null,
+            totalQuestions: questions.length,
         });
     },
 
@@ -58,13 +62,13 @@ export const useQuizStore = create<QuizState>((set, get) => ({
             // Move to finished
             newFinished.push(currentQuestion);
         } else {
-            // Re-insert into queue at random position between 1 and 5
-            // Since we already removed head, index 0 is the OLD index 1.
-            // So formatted: insert at i where 0 <= i <= min(length, 5)
-            // Actually requirement: "next 5 questions".
+            // Re-insert into queue.
+            // Requirement: "between 1-5 slots".
+            // We avoid index 0 (immediate repetition) unless the queue is empty.
 
-            const maxInsertIndex = Math.min(newQueue.length, 5);
-            const insertIndex = Math.floor(Math.random() * (maxInsertIndex + 1));
+            const minIndex = newQueue.length > 0 ? 1 : 0;
+            const maxIndex = Math.min(newQueue.length, 5);
+            const insertIndex = Math.floor(Math.random() * (maxIndex - minIndex + 1)) + minIndex;
 
             newQueue.splice(insertIndex, 0, currentQuestion);
         }
@@ -100,6 +104,6 @@ export const useQuizStore = create<QuizState>((set, get) => ({
     },
 
     resetSession: () => {
-        set({ queue: [], finished: [], currentQuestion: null, questionVersion: 0 });
+        set({ queue: [], finished: [], currentQuestion: null, questionVersion: 0, totalQuestions: 0 });
     }
 }));

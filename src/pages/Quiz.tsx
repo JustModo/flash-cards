@@ -11,6 +11,8 @@ export default function Quiz() {
     const submitAnswer = useQuizStore(state => state.submitAnswer);
     const nextQuestion = useQuizStore(state => state.nextQuestion);
     const questionVersion = useQuizStore(state => state.questionVersion);
+    const finished = useQuizStore(state => state.finished);
+    const totalQuestions = useQuizStore(state => state.totalQuestions);
 
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [isAnswered, setIsAnswered] = useState(false);
@@ -90,6 +92,9 @@ export default function Quiz() {
                 </Link>
                 <span className="ml-2 text-xs font-medium text-black/40 uppercase tracking-wider truncate">
                     {collection.title}
+                </span>
+                <span className="ml-auto text-sm font-medium text-black/60">
+                    {finished.length} / {totalQuestions}
                 </span>
             </header>
 
