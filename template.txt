@@ -1,0 +1,15 @@
+{
+    "id": "unique-id",
+    "title": "Collection Title",
+    "description": "Optional description",
+    "questions": [
+        {
+            "id": "q1",
+            "text": "Question text?",
+            "options": ["Option A", "Option B", "Option C", "Option D"],
+            "correctAnswerIndex": 0
+        }
+    ]
+}
+
+Using the PDF attached create a JSON in the above format for all the questions in the PDF, exclude anything extra and exclude repeated questions
