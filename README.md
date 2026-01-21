@@ -1,73 +1,130 @@
-# React + TypeScript + Vite
+# Flash Cards - Endless MCQ Practice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flash Cards is a self-hostable, interactive multiple-choice question (MCQ) practice application. Designed for learners and educators, it allows users to practice and test their knowledge across various topics. The app is built using modern web technologies, ensuring a fast and responsive user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Endless MCQ Practice**: Users can practice questions from various modules without limits.
+- **Customizable Content**: Easily add or modify question sets to suit your needs.
+- **Modern Tech Stack**: Built with React, TypeScript, and Vite for optimal performance.
+- **Self-Hostable**: Deploy the app on your own server or hosting platform.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ensure you have the following installed:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Node.js** (v16 or higher)
+- **npm** (comes with Node.js)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd flash-cards
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:5173`.
+
+---
+
+## Adding MCQ Questions
+
+You can add new MCQ questions by creating or editing JSON files in the `src/content/` directory. Each JSON file represents a module and follows this structure:
+
+### JSON Syntax
+
+```json
+{
+  "id": "module-id",
+  "title": "Module Title",
+  "description": "Brief description of the module",
+  "questions": [
+    {
+      "id": "question-id",
+      "text": "Question text",
+      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+      "correctAnswerIndex": 0
+    }
+  ]
+}
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Example
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```json
+{
+  "id": "e1",
+  "title": "EVS MOD 1",
+  "description": "A collection of questions covering ecosystems and sustainability.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the primary producer in a forest ecosystem?",
+      "options": ["Deer", "Oak tree", "Hawk", "Mushroom"],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
 ```
+
+Save the file in the `src/content/` directory, and the app will automatically include it.
+
+---
+
+## Deployment
+
+To deploy the app, follow these steps:
+
+1. Build the app:
+
+   ```bash
+   npm run build
+   ```
+
+2. Serve the production build:
+
+   ```bash
+   npm run preview
+   ```
+
+3. Deploy the `dist/` folder to your hosting platform (e.g., Vercel, Netlify).
+
+---
+
+## Tech Stack
+
+- **React**: Frontend library for building user interfaces.
+- **TypeScript**: Strongly typed programming language.
+- **Vite**: Fast build tool for modern web projects.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Zustand**: State management library.
+
+---
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests to improve the app.
+
+---
+
+## Reader's Note
+
+This application was originally used by the author for 1-credit MCQ exams. To generate a JSON file for your own MCQ questions, simply provide the PDF file containing the questions and use the prompt provided in `template.txt`. The JSON will be created in the required format, excluding any extra or repeated questions.
